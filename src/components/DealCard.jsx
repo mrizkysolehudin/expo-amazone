@@ -40,8 +40,7 @@ const DealCard = ({ data, title }) => {
 						style={{
 							width: 130,
 							textAlign: "center",
-							color: "gray",
-							fontWeight: 700,
+							color: "black",
 						}}>
 						{item.text}
 					</Text>

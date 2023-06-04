@@ -2,6 +2,7 @@ import { View } from "react-native";
 import React from "react";
 import { SliderBox } from "react-native-image-slider-box";
 import { data } from "../dataDummy/CarouselData";
+import { ViewPropTypes } from "deprecated-react-native-prop-types";
 
 const CarouselCard = () => {
 	return (

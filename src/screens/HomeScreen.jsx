@@ -1,16 +1,8 @@
-import {
-	View,
-	Image,
-	Text,
-	TextInput,
-	StyleSheet,
-	ScrollView,
-} from "react-native";
+import { View, TextInput, StyleSheet, ScrollView } from "react-native";
 import React, { useEffect } from "react";
 import MaterialIcon from "react-native-vector-icons/MaterialIcons";
 import DeliveryAddressCard from "../components/DeliveryAddressCard";
 import CategoryCard from "../components/CategoryCard";
-import { categoryData, data, devicesDealData } from "../dataDummy/CarouselData";
 import CarouselCard from "../components/CarouselCard";
 import RecommendationCard from "../components/RecommendationCard";
 
